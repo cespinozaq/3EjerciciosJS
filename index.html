@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Desafío 2 - JavaScript</title>
+    <style>
+      .border {
+        border: 5px solid red;
+      }
+      img {
+        cursor: pointer;
+      }
+      .box-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-img">
+      <img id="img" src="assets/imgs/imgparajs.jpg" alt="Imagen" width="600" />
+    </div>
+    <hr />
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- B1 -->
+    <div class="box-title">
+      <h1>Toma como máximo 10 stickers</h1>
+    </div>
+    <div class="boxmain">
+      <div class="box">
+        <img src="assets/imgs/db.jpg" alt="imagen 1" />
+        <input id="b1" type="number" placeholder="0" />
+      </div>
+      <!-- B2 -->
+      <div class="box">
+        <img src="assets/imgs/luffy.jpg" alt="imagen 2 " />
+        <input id="b2" type="number" placeholder="0" />
+      </div>
+      <!-- B3 -->
+      <div class="box">
+        <img src="assets/imgs/pika.jpg" alt="XXX" />
+        <input id="b3" type="number" placeholder="0" />
+      </div>
+    </div>
+    <div class="boxfinal">
+      <h2 id="resultado">Resultado</h2>
+      <button id="verificar">Verificar</button>
+    </div>
+    <hr />
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <div class="opciones">
+      <h1>Ingresa tu contraseña</h1>
+      <!-- 1 -->
+      <select id="number1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <!-- 2 -->
+      <select id="number2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <!-- 3 -->
+      <select id="number3">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <button id="validar">Validar</button>
+      <div id="mensaje"></div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <script src="index.js"></script>
+  </body>
+</html>

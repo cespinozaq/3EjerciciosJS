@@ -1,0 +1,65 @@
+/* EJERCICIO 2 */
+
+.boxmain {
+  display: flex;
+  justify-content: space-around;
+  align-self: auto;
+  font-family: monospace;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.box img {
+  height: 400px;
+}
+
+.boxfinal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+}
+
+#b1,
+#b2,
+#b3 {
+  width: 5rem;
+  font-family: monospace;
+  font-size: xx-large;
+}
+
+.box-title {
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+/* EJERCICIO 3 */
+
+.opciones {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+}
+
+#number1,
+#number2,
+#number3,
+#enviar {
+  width: 5rem;
+  font-family: monospace;
+}
+
+#validar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
